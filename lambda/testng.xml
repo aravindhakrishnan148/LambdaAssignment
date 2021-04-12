@@ -4,14 +4,14 @@
 
 <suite thread-count="1" verbose="1" name="Lambdatest Suite" annotations="JDK" parallel="tests">
 
-	<!-- <test name="Chrome">
+	<test name="Chrome">
 		<parameter name="browser" value="chrome"></parameter>
 		<parameter name="platform" value="macOS Catalina" />
 		<classes>
 			<class name="Selenium.lambda.Assessment" />
 		</classes>
-	</test>    -->
-    <test name="Firefox">
+	</test>   
+    <test name="Edge">
 		<parameter name="browser" value="MicrosoftEdge"></parameter>
 		<parameter name="platform" value="Windows 10" />
 		<classes>
